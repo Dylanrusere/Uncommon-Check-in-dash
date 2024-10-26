@@ -9,10 +9,10 @@
 
 .sign_up_grid_container{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
 
     @media(max-width:650px){
-        grid-template-columns: 0.7fr 1fr;
+        grid-template-columns: 1fr 0.7fr;
     }
 
     @media(max-width:500px){
@@ -212,9 +212,6 @@
 /* Blue Background side */
 .blue_sign_up_side{
     background-color: #0747A1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 100vh;
 }
 
@@ -270,7 +267,7 @@
 /* Create Account Side */
 .sign_into_account_content{
     text-align: center;
-    margin-top: -5%;
+    margin-top: -12%;
 
     @media(max-width:500px){
         margin-top: 0%;

@@ -9,10 +9,10 @@
 
 .sign_up_grid_container{
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 0.5fr 1fr;
 
     @media(max-width:650px){
-        grid-template-columns: 1fr 0.7fr;
+        grid-template-columns: 0.7fr 1fr;
     }
 
     @media(max-width:500px){
@@ -213,6 +213,7 @@
 .blue_sign_up_side{
     background-color: #0747A1;
     height: 100vh;
+    display: flex;
 }
 
 .sign_in_logo{

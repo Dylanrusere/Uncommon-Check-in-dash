@@ -32,7 +32,7 @@ export const SignUp = () => {
 
   return (
     <div className="sign_up_grid_container">
-      <div className="blue_sign_up_side">
+      <div className="blue_sign_in_side">
         <div className="overall_container">
           <img className='logo' src={logo} alt='Our Logo' />
           <div className="subcontent">

@@ -26,7 +26,7 @@ export const SignIn = () => {
   };
 
   return (
-    <div className="sign_up_grid_container">
+    <div className="sign_in_grid_container">
       <div className="sign_into_account_container">
         <div className="overall_container">
         <img className='sign_in_logo' src={logo} alt='Our Logo' />
@@ -79,12 +79,10 @@ export const SignIn = () => {
       <div className="blue_sign_up_side">
         <div className="overall_container">
           <div className="subcontent">
-            <h1 className="subcontent_head chillax_heads">Hello Friend</h1>
-            <p className="subcontent_par">
-              Enter your personal details to Sign In to our
-              <strong> Uncommon</strong> Check-In System.
+            <h1 className="subcontent_head chillax_heads">Welcome Back!</h1>
+            <p className="subcontent_par">To keep connected with us please log in with you personal info.
             </p>
-            <p className="start_journey">Start the journey with us.</p>
+            <p className="start_journey">Let`s continue the journey.</p>
 
             <div className="btn_container">
               <Link to='/' className='sign_in_btn'>SIGN UP</Link>

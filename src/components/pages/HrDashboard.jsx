@@ -63,7 +63,7 @@ export const HrDashboard = () => {
           <p>27 October, 2024 11:23 AM</p>
         </div>
 
-        {/* Stats Cards Section */}
+        {/* Statistics Section */}
         <div className="statistics">
           <div className="stats-card">
             <p>Total Tutors</p>

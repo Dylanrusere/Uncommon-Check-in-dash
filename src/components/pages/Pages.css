@@ -212,6 +212,7 @@
 .head {
     padding-left: 70px;
     padding-top: 0px;
+    
    
   }
   
@@ -291,40 +292,24 @@
     width: 23%;
     box-shadow: 0 2px 4px rgba(248, 247, 247, 0.979);
   }
-  /* .stats-card:hover {
-    background-color:#0747A1;
-    border: 4px solid white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 23%;
-    box-shadow: 0 2px 4px rgba(247, 247, 247, 0.979);
-    transition: 0.3s ease-in-out;
-    color:white;
-  } */
+ 
   .stats-card p {
     margin: 0;
     font-size: 0.9rem;
     color: #0747A1;
   }
-   /* .stats-card p:hover {
-    margin: 0;
-    font-size: 0.9rem;
-    color: white;
-  }  */
+   
   .stats-card h3 {
     margin: 10px 0 0;
     font-size: 2rem;
     color:#0747A1;
   }
-  /* .stats-card h3:hover {
-    margin: 10px 0 0;
-    font-size: 2rem;
-    color:white;
-  } */
+ 
 
   .search_filter_bar {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin: 40px 0;
     margin-top: 40px;
